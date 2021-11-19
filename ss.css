@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: #5f72b3;
+}
+
+.wave {
+
+
+    width: 100%;
+   
+    overflow: hidden;
+}
+
+
+ .wave__one {
+
+
+    background: url('66.png') repeat-x ;
+    width: 7000px;
+    height: 218px;
+    animation: waves 15s infinite linear;
+    position: absolute;
+    top: 0; 
+
+  }  
+  .wave__two {
+  background: url("hh.png") repeat-x;
+  width: 7000px;
+  height: 218px;
+  animation: waves 10s infinite linear;
+  position: relative;
+  top: 0; }
+
+@keyframes waves {
+  0% {
+    margin-left: 0; }
+  100% {
+    margin-left: -1938px;  
